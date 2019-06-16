@@ -1,0 +1,957 @@
+    1  adduser adhoc
+    2  passwd
+    3  vim /etc/sudoers
+    4  yum install vim
+    5  clear
+    6  vim /etc/sudoers
+    7  visudo
+    8  df -h /
+    9  hostnamectl set-hostname ec2-13-234-83-222.ap-south-1.compute.amazonaws.com
+   10  hostname
+   11  ifconfig
+   12  clear
+   13  vim /etc/hosts
+   14  hostname
+   15  vim /etc/.bashrc
+   16  vim /root/.bashrc
+   17  java -version
+   18  rpm -ivh https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.rpm
+   19  clear
+   20  yum install java-1.8.0-openjdk-devel
+   21  java -version
+   22  rpm -q jdk1.8.0_212
+   23  vim /root/.bashrc
+   24  echo $JAVA_HOME
+   25  vim /root/.bashrc
+   26  sourc /root/.bashrc
+   27  source /root/.bashrc
+   28  echo $JAVA_HOME
+   29  java -version
+   30  clear
+   31  wget https://archive.apache.org/dist/hadoop/core/hadoop-2.7.3/hadoop-2.7.3.tar.gz
+   32  yum install wget
+   33  wget https://archive.apache.org/dist/hadoop/core/hadoop-2.7.3/hadoop-2.7.3.tar.gz
+   34  ls
+   35  tar -xvzf  hadoop-2.7.3.tar.gz
+   36  ls
+   37  mkdir /hadoop2
+   38  ls
+   39  ls /
+   40  mv hadoop-2.7.3 /hadoop2
+   41  ls
+   42  vim /root/.bashrc
+   43  source /root/.bashrc
+   44  jps
+   45  cd /hadoop2
+   46  ls
+   47  cd /hadoop2/
+   48  ls
+   49  cd /etc
+   50  cd /hadoop
+   51  cd /hadoop/
+   52  source /root/.bashrc
+   53  cd /hadoop
+   54  clear
+   55  cd  
+   56  cd /hadoop2/etc/hadoop
+   57  ls
+   58  cd /hadoop2
+   59  ls
+   60  cd  
+   61  source /root/.bashrc
+   62  exit
+   63  cd /hadoop2
+   64  ls
+   65  cd  
+   66  cd /hadoop2/etc/hadoop
+   67  ls
+   68  cd /hadoop2
+   69  ls
+   70  cd /etc
+   71  ls
+   72  cd hadoop
+   73  cd  
+   74  ls /
+   75  vim /root/.bashrc
+   76  sourc /root/.bashrc
+   77  source /root/.bashrc
+   78  cd hadoop2
+   79  ls
+   80  cd /hadoop2
+   81  ls
+   82  vim hadoop-env.sh
+   83  vim hadoop_env.sh
+   84  ls
+   85  java -version
+   86  vim /root/.bashrc
+   87  cd /etc/java
+   88  ls
+   89  clear
+   90  cd  
+   91  setenforce 0
+   92  iptables -f
+   93  iptables -h
+   94  iptables -F
+   95  vim /root/.bashrc
+   96  cd /usr/java
+   97  cd /usr/java/
+   98  vim /root/.bashrc
+   99  ls
+  100  ls /
+  101  cd /hadoop
+  102  cd /hadoop2
+  103  ls
+  104  cd  
+  105  cd /usr/java
+  106  echo $JAVA_HOME
+  107  cd /usr/java/
+  108  ls
+  109  source /root/.bashrc
+  110  cd  
+  111  exit
+  112  ls
+  113  ls /hadoop2
+  114  hostname
+  115  vim /etc/hostname
+  116  vim /etc/hosts
+  117  yum install ssh
+  118  yum install sshd
+  119  nano install sshd
+  120  clear
+  121  jsp
+  122  python3
+  123  python
+  124  cd /usr
+  125  ls
+  126  echo $JAVA_HOME
+  127  cd  
+  128  cp /java/jdk1.8.0_212
+  129  cp /java/jdk1.8.0_212 /usr
+  130  cp /usr/java/jdk1.8.0_212 /usr
+  131  yum install python-software-properties
+  132  yum update
+  133  java -version
+  134  jsp
+  135  jps
+  136  yum install jdk1.8.0_212
+  137  yum install /jdk1.8.0_212
+  138  clear
+  139  yum list installed | grep java
+  140  whereis java
+  141  cd /usr/bin/java
+  142  ls -l java
+  143  clear
+  144  java --version
+  145  java -version
+  146  vim /hadoop2/hadoop-2.7.3/etc/hadoop/hadoop-env.sh 
+  147  vim .bashrc 
+  148  exec /bin/bash
+  149  echo $JAVA_HOME
+  150  jsp
+  151  yum install jsp
+  152  jsp
+  153  cd /hadoop2/etc/hadoop
+  154  source /root/.bashrc
+  155  rm -r /hadoop2/hadoop-2.7.3/
+  156  rm -rf /hadoop2/hadoop-2.7.3/
+  157  ls
+  158  ls /
+  159  cd /
+  160  rm -r hadoop2
+  161  cd hadoop2
+  162  ls
+  163  ls /
+  164  ls
+  165  cd  
+  166  cd /hadoop2
+  167  ls
+  168  rmdir hadoop2
+  169  cd  
+  170  rmdir hadoop2
+  171  rmdir /hadoop2
+  172  ls
+  173  ls /
+  174  clear
+  175  vim /root/.bashrc
+  176  echo $JAVA_HOME
+  177  mkdir -p /usr/java
+  178  ls
+  179  yum list installed | grep java
+  180  cp java-1.8.0-openjdk-devel.x86_64 /usr/java
+  181  ls /
+  182  cd usr
+  183  cd /usr
+  184  ls
+  185  cd /bin
+  186  ls
+  187  cd java
+  188  cd /java
+  189  cd  
+  190  yum list installed | grep java
+  191  yum install java-1.8.0-openjdk-devel.x86_64
+  192  yum install java-1.8.0-openjdk.x86_64
+  193  rpm -ql java-1.8.0-openjdk.x86_64
+  194  rpm -ql java-1.8.0-openjdk-devel.x86_64
+  195  yum list installed | grep java
+  196  rpm -ql java-1.8.0-openjdk.x86_64
+  197  clear
+  198  ls
+  199  tar -xvzf  hadoop-2.7.3.tar.gz
+  200  ls
+  201  mv  hadoop-2.7.3 /hadoop2
+  202  ls
+  203  ls /
+  204  cd /hadoop/etc/hadoop
+  205  ls /hadoop2
+  206  cd /hadoop/etc
+  207  cd /hadoop2/etc
+  208  ls
+  209  cd hadoop
+  210  ls
+  211  vim 
+  212  vim /etc/hosts
+  213  java -version
+  214  ls
+  215  vim hadoop-env.sh
+  216  sourc /root/.bashrc
+  217  source /root/.bashrc
+  218  vim hadoop-env.sh
+  219   vim /root/.bashrc
+  220  ls
+  221  vim hdfs-site.xml
+  222  echo $JAVA_HOME
+  223  vim core-site.xml
+  224  jps
+  225  hdfs
+  226  hdfs namenode -format
+  227  vim /root/.bashrc
+  228  source /root/.bashrc
+  229  hdfs namenode -format
+  230  vim core-site.xml
+  231  vim /root/.bashrc
+  232  hdfs namenode -format
+  233  echo $JAVA_HOME
+  234  source /root/.bashrc
+  235  echo $JAVA_HOME
+  236  hdfs namenode -format
+  237  hdfs namenode --format
+  238  cat /root/.bashrc 
+  239  echo $JAVA_HOME
+  240  cd
+  241  ls
+  242  rpm -ql /usr/java/jdk1.8.0_212
+  243  rpm -ql jdk1.8.0_212
+  244  java -version
+  245  ls
+  246  cd /hadoop2/
+  247  ls
+  248  cd etc/hadoop/
+  249  ls
+  250  hostname
+  251  vim /etc/hosts
+  252  ls
+  253  vim hdfs-site.xml 
+  254  vim hadoop-env.sh 
+  255  echo $JAVA_HOME
+  256  vim hadoop-env.sh 
+  257  hdfs namenode -format
+  258  java --version
+  259  java -version
+  260  cd
+  261  ls
+  262  vim /etc/sudoers.d/90-cloud-init-users 
+  263  java -version
+  264  vim /etc/sudoers.d
+  265  hdfs namenode -format
+  266  rpm ivh https://docs.oracle.com/javase/8/docs/technotes/guides/install/linux_jdk.html#BJFJHFDD
+  267  clear
+  268  yum list available \*openjdk\*
+  269  yum install java-1.8.0-openjdk-devel.i686            1:1.8.0.212.b04-0.el7_6    rhui-REGION-rhel-server-releases
+  270  java -version
+  271  rpm -ql jdk1.8.0_212
+  272  cd /usr
+  273  ls
+  274  cd /bin
+  275  ls
+  276  cd /java
+  277  java
+  278  cd java
+  279  cd /java
+  280  clear
+  281  rpm -ivh https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.rpm
+  282  rpm -ivh https://download.oracle.com/otn/java/jdk/8u212-b10/59066701cf1a433da9770636fbc4c9aa/jdk-8u212-linux-x64.rpm
+  283  clear
+  284  hdfs namenode -format
+  285  /hadoop2/bin/hdfs: line 304: /usr/java/jdk1.8.0_212/bin/java: No such file or directory
+  286  clear
+  287  which java
+  288  ls -alh /usr/bin/java
+  289  vim /root/.bashrc
+  290  vim hadoop-env.sh 
+  291  vim hadoop-env.sh
+  292  cd  
+  293  vim hadoop-env.sh
+  294  source /root/.bashrc
+  295  vim hadoop-env.sh
+  296  yum install nano
+  297  nano hadoop-env.sh
+  298  cd usr/bin/java
+  299  cd /usr/bin/java
+  300  cd /usr/bin/java/
+  301  which
+  302  which java
+  303  clear
+  304  cd /bin/java
+  305  which java
+  306  echo $JAVA_HOME
+  307  rpm -ql | grep -i jdk
+  308  rpm -ql jdk | grep -i jdk
+  309  rpm -ql java | grep -i jdk
+  310  rpm -qa | grep -i jdk
+  311  rpm -qa | grep -i java
+  312  vim /etc/ssh/sshd_config 
+  313  systemctl restart sshd
+  314  passwd adhoc
+  315  cd /home/adhoc/
+  316  ls
+  317  mv jdk-8u121-linux-x64.rpm /
+  318  cd
+  319  cd /
+  320  ls
+  321  rpm -ivh jdk-8u121-linux-x64.rpm 
+  322  jps
+  323  cd hadoop2/
+  324  cd etc/hadoop/
+  325  vim hadoop-env.sh 
+  326  vim hdfs-site.xml 
+  327  hdfs
+  328  jps
+  329  vim hdfs-site.xml 
+  330  vim hadoop-env.sh 
+  331  echo $JAVA_HOME
+  332  java -version
+  333  vim /root/.bashrc 
+  334  hdfs namenode -format
+  335  cd ../..
+  336  ls
+  337  cd bin/
+  338  ls
+  339  vim hdfs +304
+  340  cd
+  341  rpm -qp all
+  342  rpm -ql all
+  343  rpm -ql * | grep -i jdk
+  344  rpm -ql * | grep -i java
+  345  rpm -qa * | grep -i java
+  346  rpm -qa * | grep -i jdk
+  347  java -version
+  348  yum --help
+  349  yum erase java
+  350  yum erase jdk
+  351  yum erase *jdk*
+  352  java -version
+  353  ls
+  354  cd /
+  355  ls
+  356  echo $JAVA_HOME
+  357  cd hadoop2/etc/hadoop/
+  358  vim hdfs-site.xml 
+  359  vim hadoop-env.sh 
+  360  vim /root/.bashrc 
+  361  cd /
+  362  ls
+  363  rpm -ivh jdk-8u121-linux-x64.rpm 
+  364  java -version
+  365  cd hadoop2/
+  366  source /root/.bashrc 
+  367  ls
+  368  jps
+  369  hdfs namenode -format
+  370  jps
+  371  cd etc/hadoop/
+  372  vim core-site.xml 
+  373  hdfs namenode -format
+  374  jps
+  375  jsp
+  376  jps
+  377  java -version
+  378  jps
+  379  hadoop-daemon.sh start datanode
+  380  jps
+  381  hadoop-daemon.sh start namenode
+  382  jps
+  383  exit
+  384  jps
+  385  hdfs
+  386  hadoop-daemon.sh start namenode
+  387  jps
+  388  hadoop-daemon.sh start datanode
+  389  jps
+  390  cd /hadoop2/etc/hadoop
+  391  ls
+  392  mv  mapred-site.xml.template
+  393  mv  mapred-site.xml.template mapred-site.xml
+  394  ls
+  395  vim mapred-site.xml
+  396  vim yarn-site.xml
+  397  yarn-daemon.sh start resourcemanager
+  398  jps
+  399  vim yarn-site.xml
+  400  yarn-daemon.sh start nodemanager
+  401  jps
+  402  vim /root/.bashrc
+  403  source /root/.bashrc
+  404  jps
+  405  hdfs dfs -ls
+  406  hdfs dfs -ls ec2-13-234-83-222.ap-south-1.compute.amazonaws.com/
+  407  hadoop fs -ls/
+  408  hdfs dfs -ls/
+  409  hadoop fs mkdir /jaha
+  410  hadoop fs -mkdir /jaha
+  411  hdfs dfs -ls /
+  412  hadoop fs fsck /
+  413  hadoop fs fsck/
+  414  yes hiiiiiiii /a.txt
+  415  ls -l /
+  416  ls -l /root/
+  417  clear
+  418  cd  
+  419  ls -l
+  420  history
+  421  ls /
+  422  hadoop version
+  423  git clone https://github.com/kamaljahangir/Hadoop_Setup
+  424  yum install git
+  425  git clone https://github.com/kamaljahangir/Hadoop_Setup
+  426  ls
+  427  cd Hadoop_Setup
+  428  git status
+  429  git add
+  430  git add .
+  431  git commit -m "hadoop installation psudo_distributed"
+  432  git push
+  433  git init
+  434  git add .
+  435  ls
+  436  cd  
+  437  ls
+  438  iptables -F
+  439  getenforce 0
+  440  cd Hadoop_Setup
+  441  git init
+  442  git status
+  443  git add hadoophistory1.txt
+  444  git add /root/hadoophistory1.txt
+  445  git add .
+  446  git commit -m "Hadoop setup for psudo distributed mode"
+  447  git push
+  448  cd  
+  449  jps
+  450  exit
+  451  jps
+  452  nn
+  453  jps
+  454  dn
+  455  jps
+  456  rm
+  457  nm
+  458  jps
+  459  history
+  460  history >hadoophistory1.txt
+  461  ls
+  462  jps
+  463  who
+  464  jps
+  465  hdfs  dfs  -ls  /
+  466  hdfs  dfs  -mkdir   /adhoc
+  467  hdfs  dfs  -ls  /
+  468  df -h
+  469  yes  "hello world this is bigdata"  >/tmp/a.txt
+  470  ls -lh  /tmp/a.txt 
+  471  hdfs  dfs  -moveFromLocal /tmp/a.txt   /adhoc 
+  472  hdfs  dfs  -ls  /
+  473  hdfs  dfs  -lsr  /
+  474  history 
+  475  cd /hadoop2/
+  476  ls
+  477  cd share/
+  478  ls
+  479  cd hadoop/
+  480  ls
+  481  cd mapreduce/
+  482  ls
+  483  pwd
+  484  ls
+  485  yarn jar  hadoop-mapreduce-examples-2.7.3.jar  
+  486  yarn jar  hadoop-mapreduce-examples-2.7.3.jar  wordcount      /adhoc/a.txt    /myoutput 
+  487  history 
+  488  netstat -nltp
+  489  vim  /hadoop2/etc/hadoop/core-site.xml 
+  490  cat  /etc/hosts
+  491  netstat -nlpt
+  492  history 
+  493  yarn jar  hadoop-mapreduce-examples-2.7.3.jar  wordcount      /adhoc/a.txt    /myoutpu2
+  494  <<X
+  495  jps
+  496  jps
+  497  nn
+  498  dn
+  499  rm
+  500  nm
+  501  jps
+  502  cd /hadoop2/etc/hadoop
+  503  ls
+  504  vim core-site.xml
+  505  cd  
+  506  df -lh
+  507  df -l /
+  508  clear
+  509  vim /etc/hosts
+  510  ifconfig
+  511  systemctl status firewald
+  512  iptables -F
+  513  getenforce 0
+  514  systemctl status firewalld
+  515  systemctl status firwalld
+  516  systemctl status firewalld
+  517  jps
+  518  clear
+  519  cd /hadoop2/share/hadoop/mapreduce
+  520  ls
+  521  jps
+  522  rm
+  523  nm
+  524  jps
+  525  ls
+  526  mv hadoophistory1.txt Hadoop_Setup/
+  527  git add .
+  528  cd Hadoop_Setup/
+  529  git add .
+  530  git commit -m "commands for hadoop psudodistributed cluster"
+  531  git push
+  532  cd  
+  533  clear
+  534  jps
+  535  java -version
+  536  jsp
+  537  hadoopp -version
+  538  hdfs
+  539  vim /etc/.bashrc
+  540  vim ~/.bashrc
+  541  vim /root/.bashrc
+  542  what provides jdk
+  543  whatprovides jdk
+  544  which jdk
+  545  whereis java
+  546  whereis jdk
+  547  ls
+  548  whichprovides jdk
+  549  which provides jdk
+  550  which provides java
+  551  clear
+  552  ls -l /
+  553  rpm -ql  jdk-8u121-linux-x64.rpm
+  554  rpm -ql  jdk1.8.0_121
+  555  jps
+  556  ls
+  557  cd Hadoop_Setup/
+  558  init git
+  559  git init
+  560  git status
+  561  git add .
+  562  git commit -m "Hadoop setup for psudo distributed cluster"
+  563  git push
+  564  git config --global push.default simple
+  565  git init
+  566  git status
+  567  ls
+  568  iptables -F
+  569  getenforce 0
+  570  git status
+  571  git add .
+  572  git commit -m "hadoop setup for psudo distributed cluster"
+  573  git push
+  574  ls
+  575  ls /
+  576  cd /usr
+  577  ls
+  578  cd /java
+  579  cd java
+  580  ls
+  581  cd 
+  582  hostname
+  583  vim /etc/hosts
+  584  ls /
+  585  ls /shadoop2
+  586  ls /hadoop2
+  587  ls /hadoop2/etc
+  588  ls /hadoop2/etc/hadoop
+  589  echo $JAVA_HOME
+  590  vim hadoop-env.sh
+  591  cd /hadoop2/etc/hadoop
+  592  ls
+  593  vim hadoop.env.sh
+  594  vim hadoop-env.sh
+  595  vim hdfs-site.xml
+  596  vim core-site.xml
+  597  jps
+  598  nn
+  599  dn
+  600  jps
+  601  tcpdump -i eth0 -n tcp port 9000 and host ec2-13-234-83-222.ap-south-1.compute.amazonaws.com
+  602  jps
+  603  hadoop -version
+  604  hadoop version
+  605  hdfs dfs -ls /
+  606  ls
+  607  cd  
+  608  touch a.txt
+  609  ls
+  610  gedit a.txt
+  611  vim a.txt
+  612  cd /hadoop2/etc/hadoop
+  613  hdfs dfs -put /root/a.txt /jk
+  614  hdfs dfs -mkdir /jk1
+  615  hdfs dfs -put /root/a.txt /jk1
+  616  clear
+  617  hdfs dfs rm -r /jk
+  618  hdfs dfs -rm -r /jk
+  619  hdfs dfs -cat /jk1/a.txt
+  620  hdfs dfs -cat /adhoc/a.txt
+  621  clear
+  622  ls
+  623  vim mapred-site.xml 
+  624  vim yarn-site.xml
+  625  rm
+  626  nm
+  627  jps
+  628  cd /hadoop2/share/hadoop/mapreduce
+  629  ls
+  630  cat hadoop-mapreduce-examples-2.7.3.jar
+  631  clear
+  632  ls
+  633  yarn jar hadoop-mapreduce-examples-2.7.3.jar wordcount /jk1/a.txt /myoutput
+  634  yarn jar hadoop-mapreduce-examples-2.7.3.jar wordcount /jk1/a.txt /output
+  635  clear
+  636  yarn jar hadoop-mapreduce-examples-2.7.3.jar wordcount /jk1/a.txt /output
+  637  clear
+  638  cd
+  639  history
+  640  ls
+  641  history >history2.txt
+  642  cp history.txt /root/Hadoop_Setup/hadoophistory1.txt 
+  643  cp history2.txt /root/Hadoop_Setup/hadoophistory1.txt 
+  644  mv history2.txt /root/Hadoop_Setup/
+  645  cd Hadoop_Setup/
+  646  git add .
+  647  git commit -m "Commands for hadoop"
+  648  git push
+  649  cd  
+  650  vim /etc/sudoers
+  651  vim /etc/sudoers/sudoers.d
+  652  cd /etc/sudoers
+  653  vim /etc/sudoers/ sudoers.rpmnew
+  654  vim /etc/sudoers/ sudoers
+  655  vim /etc/sudoers
+  656  clear
+  657  cd
+  658  jps
+  659  nn
+  660  jps
+  661  exit
+  662  jps
+  663  ls
+  664  jps
+  665  nn
+  666  dn
+  667  jps
+  668  rm
+  669  jps
+  670  nm
+  671  jps
+  672  hdfs dfs -ls /
+  673  clear
+  674  jps
+  675  python3
+  676  cd /etc/yum.repos.d
+  677  ls
+  678  cd /etc/yum.repos.d
+  679  ls
+  680  vim adhoc.repo
+  681  cd  
+  682  yum install python3*
+  683  clear
+  684  vim adhoc.repo
+  685  yum install python3*
+  686  cd /etc/yum.repos.d
+  687  ls
+  688  yum install python3*
+  689  cd  
+  690  vim adhoc.repo
+  691  cd /etc/yum.repos.d
+  692  ls
+  693  vim adhoc.repo
+  694  yum install python3*
+  695  iptables -F
+  696  yum install python3*
+  697  cd  
+  698  python3
+  699  pip3
+  700  pip3 install jupyter
+  701  pip install --upgrade pip
+  702  pip3 install --upgrade pip
+  703  jupyter-notebook --no-browser --ip=0.0.0.0 --port=9999 &>/dev/null &
+  704  jupyter-notebook list
+  705  clear
+  706  ls
+  707  jupyter-notebook list
+  708  jupyter-notebook --no-browser --ip=0.0.0.0 --port=9999 &>/dev/null &
+  709  jupyter-notebook list
+  710  iptables -F
+  711  jupyter-notebook list
+  712  exit
+  713  yum install jupyter-notebook
+  714  ls
+  715  clear
+  716  yum install pip3
+  717  pip install matplotlib
+  718  python3
+  719  yum search -v pip
+  720  clear
+  721  pip -v
+  722  pip3 -v
+  723  exit
+  724  yum install @development
+  725  pip3 -v
+  726  pip -v
+  727  exit
+  728   yum install epel-release
+  729  yum install python-pip
+  730  yum -y install python-setuptools
+  731  wget https://bootstrap.pypa.io/get-pip.py
+  732  python get-pip.py
+  733  python3
+  734  iptables -F
+  735  getenforce 0
+  736  exit
+  737  clear
+  738  jps
+  739  nn
+  740  jps
+  741  dn
+  742  jps
+  743  rm
+  744  jps
+  745  nm
+  746  jps
+  747  hdfs dfs -ls
+  748  hdfs dfs -ls /
+  749  wget ftp://192.168.10.254/pub/summer19/bigdata/spark-2.4.0-bin-hadoop2.7.tgz
+  750  clear
+  751  wget https://www.apache.org/dyn/closer.lua/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz
+  752  ls
+  753  tar -xvzf spark-2.4.3-bin-hadoop2.7.tgz
+  754  tar -xvf spark-2.4.3-bin-hadoop2.7.tgz
+  755  tar -xvzf spark-2.4.3-bin-hadoop2.7.tgz
+  756  clear
+  757  ls
+  758  tar xvzf spark-2.4.3-bin-hadoop2.7.tgz
+  759  tar zxvf  spark-2.4.3-bin-hadoop2.7.tgz
+  760  tar -zxvf  spark-2.4.3-bin-hadoop2.7.tgz
+  761  tar xvf  spark-2.4.3-bin-hadoop2.7.tgz
+  762  tar -xvf  spark-2.4.3-bin-hadoop2.7.tgz
+  763  tar -xf  spark-2.4.3-bin-hadoop2.7.tgz
+  764  clear
+  765  ls
+  766  rm  spark-2.4.3-bin-hadoop2.7.tgz
+  767  ls
+  768  jps
+  769  stop rm
+  770  exit
+  771  jps
+  772  hadoop-daemon.sh stop resourcemanager
+  773  jps
+  774  stop-all.sh
+  775  clear
+  776  ls
+  777  tar -tvf spark-2.4.3-bin-hadoop2.7.tgz
+  778  rm -r spark-2.4.3-bin-hadoop2.7.tgz
+  779  hadoop-daemon.sh stop resourcemanager
+  780  hadoop-daemon.sh stop rm
+  781  jps
+  782  exit
+  783  jps
+  784  ls
+  785  tar -xf  spark-2.4.3-bin-hadoop2.7.tgz
+  786  tar -xvf spark-2.4.3-bin-hadoop2.7.tgz
+  787  rm -r  spark-2.4.3-bin-hadoop2.7.tgz
+  788  jps
+  789  hadoop-daemon.sh stop resourcemanager
+  790  hadoop-daemon.sh stop ResourceManager
+  791  clear
+  792  ls
+  793  gunzip -c spark-2.4.3-bin-hadoop2.7.tgz | tar xvf -
+  794  rm -f spark-2.4.3-bin-hadoop2.7.tgz
+  795  iptables -F
+  796  getenforce 0
+  797  rm -f spark-2.4.3-bin-hadoop2.7.tgz
+  798  rm -rf spark-2.4.3-bin-hadoop2.7.tgz
+  799  yarn-daemon.sh stop ResourceManager
+  800  yarn-daemon.sh stop resourcemanager
+  801  rm -f spark-2.4.3-bin-hadoop2.7.tgz
+  802  jps
+  803  yarn-daemon.sh stop resourcemanager
+  804  rm -rf spark-2.4.3-bin-hadoop2.7.tgz
+  805  yarn-daemon.sh stop resourcemanager
+  806  ls
+  807  tar xvf spark-2.4.3-bin-hadoop2.7.tgz
+  808  clear
+  809  wget https://www.apache.org/dyn/closer.lua/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz
+  810  ls
+  811  tar -xvf  spark-2.4.3-bin-hadoop2.7.tgz.1
+  812  tar zxvf  spark-2.4.3-bin-hadoop2.7.tgz.1
+  813  tar -tvf  spark-2.4.3-bin-hadoop2.7.tgz.1 
+  814  clear
+  815  wget http://apachemirror.wuchna.com/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz
+  816  ls
+  817  tar -tvf  spark-2.4.3-bin-hadoop2.7.tgz.2
+  818  clear
+  819  ls
+  820  tar xvf spark-2.4.3-bin-hadoop2.7.tgz.2
+  821  ls
+  822  clear
+  823  ls
+  824  mv  spark-2.4.3-bin-hadoop2.7 /spark24
+  825  ls
+  826  ls /
+  827  vim /root/.bashrc
+  828  source /root/.bashrc
+  829  spark-shell
+  830  clear
+  831  pip3 install findspark
+  832  which pip3
+  833  what pip3
+  834  where pip3
+  835  clear
+  836  which pip3
+  837  which pip
+  838  /usr/bin/pip3
+  839  ls /bin/pip
+  840  /bin/pip/pip3
+  841  /bin/pip
+  842  which pip3
+  843  clear
+  844  /usr/local/sbin/pip3
+  845  /usr/local/sbin/pip3 install findspark
+  846  clear
+  847  python3
+  848  /bin/pip install findspark
+  849  /bin/pip upgrade
+  850  /bin/pip update
+  851  ls
+  852  jps
+  853  clear
+  854  exit
+  855  vim .bashrc
+  856  vim /.bashrc
+  857  exit
+  858  spark-shell
+  859  clear
+  860  exit
+  861  spark-shell
+  862  clea
+  863  clear
+  864  python3
+  865  exit
+  866  which spark
+  867  which spark24
+  868  vim /root/.bashrc
+  869  python3
+  870  which pip3
+  871  pip3 install findspark
+  872  /usr/local/bin/pip3 install findspark
+  873  python3
+  874  clear
+  875  rpm -qc jupyter-notebook
+  876  pip3 install jupyter-notebook
+  877  which pip3
+  878  /usr/local/bin/pip3 install jupyter
+  879  python3
+  880  pip3
+  881  cp /usr/local/bin/pip3 /usr/bin/
+  882  pip3 install notebook
+  883  exit
+  884  spark
+  885  spark-shell
+  886  exit
+  887  clear
+  888  vim a.txt
+  889  vim wc.py
+  890  ls
+  891  spark-submit /root/wc.py
+  892  pip3 install pyspark
+  893  clear
+  894  spark-submit /root/wc.py
+  895  vim wc.py
+  896  pyspark
+  897  dir(pyspark)
+  898  dir('pyspark')
+  899  pip3 install sparkcontext
+  900  dir(spark24)
+  901  exit
+  902  ls
+  903  vim wc.py
+  904  spark-submit wc.py
+  905  vim wc.py
+  906  spark-submit wc.py
+  907  vim wc.py
+  908  spark-submit wc.py
+  909  vim wc.py
+  910  spark-submit wc.py
+  911  vim wc.py
+  912  spark-submit wc.py
+  913  vim wc.py
+  914  spark-submit wc.py
+  915  vim wc.py
+  916  spark-submit wc.py
+  917  python3 wc.py
+  918  ls
+  919  python3 wc.py
+  920  vim a.txt
+  921  clear
+  922  vim wcgraph.py
+  923  ls
+  924  python3 wcgraph.py
+  925  pip3 install matplotlib
+  926  python3 wcgraph.py
+  927  clear
+  928  pyspark
+  929  clear
+  930  wget http://mirrors.estointernet.in/apache/hive/hive-1.2.2/apache-hive-1.2.2-bin.tar.gz
+  931  ls
+  932  tar xvf apache-hive-1.2.2-bin.tar.gz
+  933  ls
+  934  mv apache-hive-1.2.2-bin /hive12
+  935  ls
+  936  clear
+  937  vim /root/.bashrc
+  938  source /root/.bashrc
+  939  hive
+  940  jps
+  941  nn
+  942  jps
+  943  dn
+  944  jps
+  945  clear
+  946  jps
+  947  hive
+  948  jps
+  949  hive
+  950  jps
+  951  python3
+  952  which pip3
+  953  code
+  954  exit 
+  955  history
+  956  ls
+  957  history >sparkcmds.txt
